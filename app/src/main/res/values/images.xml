@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="images">
+        <item>Первый котик</item>
+        <item>Второй котик</item>
+        <item>Третий котик</item>
+        <item>Четвертый котик</item>
+    </string-array>
+
+</resources>

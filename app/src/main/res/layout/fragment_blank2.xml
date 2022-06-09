@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewForLabel2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Meditate with your friends or on your own, be at present, feel your body and manage your emotions"
+        android:textAppearance="@style/style1"
+        android:textColor="#BA55D3"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleFirst"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:scrollbars="horizontal" />
+
+    <TextView
+        android:id="@+id/textViewForLabel3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Here you can find the collection of meditations for all life problems. Don't worry, be happy!"
+        android:textAppearance="@style/style1"
+        android:textColor="#BA55D3"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</LinearLayout>

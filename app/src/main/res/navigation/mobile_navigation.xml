@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.yogaclub.ui.home.HomeFragment"
+        android:label="Yoga and meditations"
+        tools:layout="@layout/fragment_home"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <activity
+        android:id="@+id/nav_gallery"
+        android:name="com.example.yogaclub.ui.gallery.Friends"
+        android:label="Communication"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.yogaclub.ui.slideshow.SlideshowFragment"
+        android:label="Account settings"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
